@@ -1,0 +1,11 @@
+-Recuperer un mot au hasard. //
+-Afficher le Mot.
+-Afficher le Mot : la premiere et la derniere lettre.
+-Afficher toutes les lettres trouvées dans le mot.
+-Interdire de rejouer la meme lettre.
+
+-2 eme partie
+-creer le site
+-creer le canvas
+-implementer le code sur la page
+-display du "Hangover"

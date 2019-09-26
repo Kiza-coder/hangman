@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  		<style>
+  		#canvas{
+  border: solid 1px;  
+  width: 100%;
+}
+</style>
+  		
+		
+	<meta charset="UTF-8">
+	<title>Hangover</title>
+</head>
+<body>
+
+
+<!---------------------------------------------------------------------------------->
+	<header>		
+ 		<div class="jumbotron jumbotron-fluid bg-info">
+ 			<div class="container-fluid bg-light pt-1 ">
+ 				<div class="row">
+					<div class="col-12 text-center"><h1>HANGOVER</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+<!------------------------------------------------------------------------------------>
+	<center>
+			<div class="container-fluid">
+				<div class="row">	
+					<div class="col-md-12">
+						<div class="row">
+
+							<!--sectionLeft-->
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-12 border border-dark">
+								<canvas id="canvas" class ="canvas bg-info" width="auto" height="200"></canvas>
+									</div>
+								</div>
+							</div>
+			
+		
+							<!--sectionRight-->			
+							<div class="col-md-6 border border-dark">
+								<div class="row">
+
+								<!--sectionRightUp-->
+									<div class="col-md-12 border border-dark">
+										<div class="d-flex justify-content-around center pt-3">
+										<p></p>
+										<p id="l-0">*</p>
+										<p id="l-1">*</p>
+										<p id="l-2">*</p>
+										<p id="l-3">*</p>
+										<p id="l-4">*</p>
+										<p id="l-5">*</p>
+										<p id="l-6">*</p>
+										<p id="l-7">*</p>
+										<p></p>
+										</div>
+									</div>
+								
+
+
+								<!---sectionRightCenter--->
+									<div class="col-md-12 border border-dark">
+										<div class="d-flex justify-content-around center pt-3">
+											<div class="d-flex flex-column">
+												<p id="g-0">a</p>
+												<p id="g-1">a</p>
+												<p id="g-2">a</p>
+												<p id="g-3">a</p>
+											</div>
+											<div class="d-flex flex-column">
+												<p id="g-4">a</p>
+												<p id="g-5">a</p>
+												<p id="g-6">a</p>
+												<p id="g-7">a</p>
+											</div>
+										</div>
+									</div>
+							
+
+								<!---sectionRightDown---->
+									<div class="col-md-12 border border-dark">
+										<div class="d-flex justify-content-between p-2 bd-highlight"><input type=text id="letter"></input><button type="button" id="run" class="btn btn-dark">click</button></div>
+
+										<div class="d-flex justify-content-between p-2 bd-highlight"><input type=text></input><button type="button" class="btn btn-dark"></button></div>
+
+										<div class="d-flex justify-content-between p-2 bd-highlight"><p id="lives">LIVES : 6</p></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</center>
+<!------------------------------------------------------------------------------------------->
+	<footer>
+		<div class="card" style="width:100%;">
+			<div class="card-header">
+				HANGOVER
+			</div>
+			<div class="card-body">
+   				<h5 class="card-title">The Hangover</h5>
+    			<p class="card-text">Kiza</p>
+    		</div>
+    	</div>
+	</footer>
+
+		
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity></script>
+	 <script src="script2.js"></script>
+</body>
+</html>	
